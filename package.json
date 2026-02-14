@@ -1,6 +1,7 @@
 {
-	"name": "gnosis-blocks",
+	"name": "wp-meta-field-block",
 	"version": "1.0.0",
+	"author": "Gnosis Web Technologies",
 	"description": "Dynamic custom blocks with placeholder-based content pulling from ACF fields and custom meta.",
 	"scripts": {
 		"start": "wp-scripts start",

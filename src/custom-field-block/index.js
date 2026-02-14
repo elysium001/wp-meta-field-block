@@ -69,7 +69,7 @@ function Edit( props ) {
 	);
 }
 
-registerBlockType( 'gnosis/custom-field-block', {
+registerBlockType( 'gnosis/wp-meta-field-block', {
 	edit: Edit,
 	save: () => {
 		return null; // Rendered via PHP

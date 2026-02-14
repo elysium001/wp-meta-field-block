@@ -3,7 +3,7 @@
 declare( strict_types=1 );
 
 /**
- * Plugin Name: Gnosis Blocks
+ * Plugin Name: wp-meta-field-block - Gnosis Blocks
  * Plugin URI: https://webtechgnosis.com
  * Description: Dynamic custom blocks with placeholder-based content pulling from ACF fields and custom meta.
  * Version: 1.0.0
@@ -51,7 +51,7 @@ function initialize() {
  * @return void
  */
 function register_blocks(): void {
-	$block_path = GNOSIS_BLOCKS_PATH . 'build/custom-field-block/block.json';
+	$block_path = GNOSIS_BLOCKS_PATH . 'build/wp-meta-field-block/block.json';
 	
 	// Check if the block.json file exists
 	if ( file_exists( $block_path  ) ) {

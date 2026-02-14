@@ -14,7 +14,7 @@ if ( empty( $block_content ) ) {
 
 // Get block wrapper attributes.
 $wrapper_attributes = get_block_wrapper_attributes( array(
-	'class' => 'wp-block-gnosis-custom-field-block',
+	'class' => 'wp-block-gnosis-wp-meta-field-block',
 ) );
 
 // Create the custom field instance to process placeholders.

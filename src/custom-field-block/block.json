@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "gnosis/custom-field-block",
+	"name": "gnosis/wp-meta-field-block",
 	"title": "Custom Field Block",
 	"category": "widgets",
 	"description": "A block that allows you to create custom HTML markup with dynamic field placeholders like {field_name}, {acf:field_name}, or {meta:field_name}.",
