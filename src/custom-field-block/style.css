@@ -1,0 +1,18 @@
+/**
+ * Gnosis Blocks - Custom Field Block Frontend Styles
+ */
+
+.wp-block-gnosis-custom-field-block {
+	width: 100%;
+}
+
+.wp-block-gnosis-custom-field-block iframe {
+	display: block;
+	max-width: 100%;
+}
+
+.wp-block-gnosis-custom-field-block video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gnosis/custom-field-block",
+	"title": "Custom Field Block",
+	"category": "widgets",
+	"description": "A block that allows you to create custom HTML markup with dynamic field placeholders like {field_name}, {acf:field_name}, or {meta:field_name}.",
+	"keywords": ["custom", "field", "placeholder", "acf", "meta", "gnosis"],
+	"icon": "editor-code",
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"color": {
+			"background": true,
+			"text": true
+		}
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"default": "",
+			"description": "The HTML markup with placeholders"
+		},
+		"showPreview": {
+			"type": "boolean",
+			"default": false,
+			"description": "Toggle between edit and preview mode"
+		}
+	},
+	"textdomain": "gnosis-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./edit.css",
+	"style": "file:./style.css",
+	"render": "file:./render.php"
+}
